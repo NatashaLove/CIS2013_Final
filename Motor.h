@@ -1,11 +1,12 @@
 #include <iostream>
 #include <cstring>
+//g++ CIS2013_Final.cpp
 
 using namespace std;
 // the class will remember all data changes in the main
 class Motorcycle {
 	private:
-	//int wheels;
+	
 	string color;
 	string model;
 	string make;	
@@ -15,13 +16,16 @@ class Motorcycle {
 	
 	// default constructor
 	Motorcycle();
+	
+	Motorcycle (string mod, string mak, string col, string y);
+	
 	// default destructor
 	~Motorcycle();	
 	
-	void setModel ();
-	void setMake ();
-	void setColor ();
-	void setYear ();
+	void setModel (string);
+	void setMake (string);
+	void setColor (string);
+	void setYear (string);
 
 	string getModel (); 
 	string getMake ();
