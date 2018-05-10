@@ -14,8 +14,8 @@ int  main() {
 	string year;
 	
 	cout << endl;
-	cout << "		***			Hello!		***  " << endl;
-	cout << "		***		You can make your Motorcycle:		***  " << endl;
+	cout << "		***			 Hello!			***  " << endl;
+	cout << "		***		You can make your Motorcycle:	***  " << endl;
 	cout << "		------------------------------------------------ " << endl;
 	cout << endl;
 	cout << "Choose the model:  " << endl;
